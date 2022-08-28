@@ -1,0 +1,87 @@
+/* CSS Document */
+body{padding:0px; margin:0px; background:#fff url(../images/b_body.jpg) 0 0 repeat-x; color:#616161; font:10px/14px Tahoma, sans-serif;}
+div, p, ul, h2, h3, h4, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+.clear {clear: both; margin: 0px; height:0}
+
+p a{font:10px/14px Tahoma, sans-serif; color:#dcfbfe; text-decoration:underline;}
+p a:hover{ color:#FFF; text-decoration:none;}
+
+.headline{font:10px/14px Tahoma, Geneva, sans-serif; color:#8fbc34; font-weight:bold}
+
+#container{width:736px; position:relative; margin:0 auto;}
+
+/* MENU */
+
+#menuPan{width:736px; height:95px; position:relative}
+
+#menuPan ul.menu{position:absolute; top:15px; left:42px; width:685px}
+#menuPan ul.menu li{height:61px; margin-right:25px; float:left}
+#menuPan ul.menu li a{height:61px; display:block; text-indent:-20000px; }
+#menuPan ul.menu li a:hover{height:61px;}
+
+#menuPan ul.menu li.btn_1 a{width:84px; background:url(../images/btn_1.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_1 a:hover{width:84px; background:url(../images/btn_1_over.jpg) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_2 a{width:73px; background:url(../images/btn_2.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_2 a:hover{width:73px; background:url(../images/btn_2_over.jpg) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_3 a{width:93px; background:url(../images/btn_3.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_3 a:hover{width:93px; background:url(../images/btn_3_over.jpg) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_4 a{width:85px; background:url(../images/btn_4.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_4 a:hover{width:85px; background:url(../images/btn_4_over.jpg) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_5 a{width:105px; background:url(../images/btn_5.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_5 a:hover{width:105px; background:url(../images/btn_5_over.jpg) 0 0 no-repeat;}
+
+#menuPan ul.menu li.btn_6{margin-right:0}
+#menuPan ul.menu li.btn_6 a{width:89px; background:url(../images/btn_6.jpg) 0 0 no-repeat; }
+#menuPan ul.menu li.btn_6 a:hover{width:89px; background:url(../images/btn_6_over.jpg) 0 0 no-repeat;}
+
+
+/* HEADER */
+
+#header{width:736px; height:268px; position:relative; background:url(../images/b_header.jpg) 0 0 repeat-x}
+#header img#logo{position:absolute; top:52px; left:518px}
+
+/* CONTENT */
+
+#content{width:736px; position:relative}
+
+#leftPan{width:207px; float:left; margin:25px 31px 0 27px; display:inline}
+#middlePan{width:207px; float:left; margin:25px 35px 0 0; }
+#rightPan{width:207px; float:left; margin:25px 0 0 0;}
+
+#services h2{height:48px; position:relative; background:url(../images/h_services.gif) 0 0 no-repeat; margin-bottom:16px}
+#services .servitem{position: relative; margin-bottom:8px; margin-left:3px; width:204px}
+#services .servitem img{float:left; margin-right:10px}
+#services .servitem p{width:130px; float:left; padding-top:2px}
+
+#services p#maintxt{margin-left:4px; width:202px; padding-top:10px}
+
+#teencenter h2{height:48px; position:relative; background:url(../images/h_center.gif) 0 0 no-repeat; margin-bottom:16px}
+#teencenter .teenitem{position: relative; margin-bottom:8px; margin-left:3px;  width:204px}
+#teencenter .teenitem img{float:left; margin-right:10px}
+#teencenter .teenitem p{width:130px; float:left; padding-top:2px}
+
+#teencenter p#maintxt2{margin-left:4px; width:202px; padding-top:10px}
+
+#welcome h2{height:48px; position:relative; background:url(../images/h_welcome.gif) 0 0 no-repeat; margin-bottom:16px}
+#welcome p{margin-left:2px; margin-bottom:15px}
+
+#welcome ul{width:200px; margin-left:5px}
+#welcome ul li{font:10px/14px Tahoma, sans-serif; background:url(../images/arrow.gif) 0 3px no-repeat; padding-left:13px; height:20px;}
+#welcome ul li a{color:#ff6600; text-decoration:none;}
+#welcome ul li a:hover{color:#000; text-decoration:underline;}
+
+.clear#end{height:20px}
+
+/* FOOTER */
+
+
+#footer{height:64px; clear:both; width:736px; border-top: #245151 1px solid}
+#footer p{padding: 19px 0 0 0; font:10px/16px Tahoma, sans-serif; font-weight:normal; text-align:center; color:#000;}
+#footer p a{font:10px/16px Tahoma, sans-serif; font-weight:normal; color:#000; text-decoration:none; padding: 0 3px }
+#footer p a:hover{text-decoration:underline; color:#000}
