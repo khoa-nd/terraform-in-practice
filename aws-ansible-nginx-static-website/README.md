@@ -18,7 +18,7 @@ Reference Source : https://medium.com/@mitesh_shamra/deploying-website-on-aws-us
 52.220.97.224 ansible_ssh_private_key_file=./notAKey.pem
 - Find/Replace all sample domain name to your own domain name in nginx configure files
 - Run ansible-playbook playbook.yaml
-- Access your website by domain name in web browser
+- Access your website by domain name in web browser http://baolong.homes/
 
 
 
