@@ -1,2 +1,2 @@
 [all]
-52.220.97.224 ansible_ssh_private_key_file=./notAKey.pem
+52.220.X.X ansible_ssh_private_key_file=./notAKey.pem

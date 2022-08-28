@@ -15,7 +15,7 @@ Reference Source : https://medium.com/@mitesh_shamra/deploying-website-on-aws-us
 # How To Run Ansible
 - Copy your static website into ansible/files/static_website
 - In the inventory file, change this to your EC2 instance public IP (i.e: Elastic IP)
-52.220.97.224 ansible_ssh_private_key_file=./notAKey.pem
+52.220.X.X ansible_ssh_private_key_file=./notAKey.pem
 - Find/Replace all sample domain name to your own domain name in nginx configure files
 - Run ansible-playbook playbook.yaml
 - Access your website by domain name in web browser http://baolong.homes/
