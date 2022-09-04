@@ -84,6 +84,6 @@ aws lambda invoke \
 ![Alt](https://media.techmaster.vn/api/static/4930/pmbImp8a "cli")
 
 ## Mã nguồn và Tham Khảo 
-- Mã Nguồn : 
+- Mã Nguồn : https://github.com/khoa-nd/terraform-in-practice/tree/master/aws-lambda
 - Nguồn Tham Khảo : https://hands-on.cloud/how-to-manage-aws-lambda-using-terraform/#h-what-is-aws-lambda-and-what-are-its-benefits
 - Mọi góp ý xin tạo pull request hoặc issue trực tiếp trên mã nguồn.
