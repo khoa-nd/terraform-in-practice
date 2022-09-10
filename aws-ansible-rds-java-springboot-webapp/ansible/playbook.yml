@@ -1,0 +1,26 @@
+---
+- hosts: all
+  become: yes
+  become_method: sudo
+  remote_user: ubuntu
+
+  tasks:
+  - name: Update and upgrade apt packages
+    apt:
+      upgrade: yes
+      update_cache: yes
+      cache_valid_time: 86400 #One day
+
+  - name: install JDK 11
+    apt:
+      name: openjdk-11-jdk
+      state: present
+
+  - name: Copy jar file application
+    copy:
+      src: "../apiserver/target/apiserver-1.0.jar"
+      dest: "/home/ubuntu"
+      mode: 0644
+
+  - name: Run jar file application
+    command: "nohup java -jar /home/ubuntu/apiserver-1.0.jar"      
